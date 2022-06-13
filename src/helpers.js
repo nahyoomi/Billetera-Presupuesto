@@ -1,4 +1,4 @@
-export const revisarPresupuesto = (presupuesto, restante) => {
+ const revisarPresupuesto = (presupuesto, restante) => {
     let clase;
 
     if( (presupuesto / 4 ) > restante){
@@ -10,3 +10,4 @@ export const revisarPresupuesto = (presupuesto, restante) => {
     }
     return clase;
 }
+export default revisarPresupuesto;

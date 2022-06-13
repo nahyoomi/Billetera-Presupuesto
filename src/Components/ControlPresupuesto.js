@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import {revisarPresupuesto} from '../helpers';
+import revisarPresupuesto from '../helpers';
 import PropTypes from 'prop-types';
 
 const ControlPresupuesto = ({presupuesto, restante}) => {
